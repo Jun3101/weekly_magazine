@@ -5,7 +5,7 @@ from collections import defaultdict
 from calibre.web.feeds.news import BasicNewsRecipe, classes
 
 BASE = 'https://www.nature.com'
-
+compress_news_images = True
 
 def absurl(url):
     if url.startswith('/'):
