@@ -19,6 +19,7 @@ class TimeMagazine(BasicNewsRecipe):
     language = 'en'
     no_stylesheets = True
     remove_javascript = True
+    compress_news_images = True
 
     def parse_index(self):
         root = self.index_to_soup('https://time.com/magazine', as_tree=True)
