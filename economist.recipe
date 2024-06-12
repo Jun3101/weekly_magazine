@@ -18,6 +18,7 @@ from lxml import etree
 # For past editions, set date to, for example, '2020-11-28'.
 edition_date = None
 use_archive = True
+compress_news_images = True
 
 
 def E(parent, name, text='', **attrs):
