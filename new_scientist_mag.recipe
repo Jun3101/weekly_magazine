@@ -26,6 +26,7 @@ class NewScientist(BasicNewsRecipe):
     resolve_internal_links = True
     remove_attributes = ['style', 'height', 'width']
     masthead_url = 'https://cdn.shopify.com/s/files/1/0266/6843/3505/files/logo.svg?v=1629189295'
+    compress_news_images = True
 
     conversion_options = {
         'comment': description,
